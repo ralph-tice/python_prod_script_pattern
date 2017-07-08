@@ -14,6 +14,11 @@ Python can help! Out of box it can give you essential but often-skipped features
 
 It can be a little tricky, though, if you haven't already done it. This project demonstrates it for you. It includes an example of a script that *isn't* ready for prod.
 
+Tracking code coverage and PEP8 compliance can be [bad][coverage] [ideas][pep8]. However, this project is written so you can copy/paste and tweak it. Since many projects enforce coverage and PEP8, this project does the same to minimize the changes needed to get it working in more rigid repos. That's the only reason those features are enabled. It's entirely reasonable to remove them, you'd still meet the production readiness requirements demonstrated here.
+
+[coverage]: https://operatingops.org/2016/11/25/why-i-dont-track-test-coverage/
+[pep8]: https://github.com/operatingops/simple_style/blob/v0.1.0/SIMPLE_STYLE.md
+
 # Building and Installing
 
 This is pip-installable so any of the usual Python build and install patterns should work. If you don't want pip-installability it's entirely reasonable to replace the `setup.py` with a `requirements.txt` and the `entry_point()` method with an `if __name__ == '__main__'` condition.
