@@ -53,3 +53,7 @@ Like most folks, you will probably install to a [venv](https://docs.python.org/3
 # Running Tests
 
     tox
+
+# Contributing
+
+Check out the [contributing guide](CONTRIBUTING.md).
